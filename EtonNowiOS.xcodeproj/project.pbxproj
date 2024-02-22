@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E50E7982B87D68600B15C77 /* EtonNowiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50E7972B87D68600B15C77 /* EtonNowiOSApp.swift */; };
+		3E50E79A2B87D68600B15C77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50E7992B87D68600B15C77 /* ContentView.swift */; };
+		3E50E79C2B87D68800B15C77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E50E79B2B87D68800B15C77 /* Assets.xcassets */; };
+		3E50E79F2B87D68800B15C77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E50E79E2B87D68800B15C77 /* Preview Assets.xcassets */; };
+		3E50E7A92B87D68800B15C77 /* EtonNowiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50E7A82B87D68800B15C77 /* EtonNowiOSTests.swift */; };
+		3E50E7B32B87D68800B15C77 /* EtonNowiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50E7B22B87D68800B15C77 /* EtonNowiOSUITests.swift */; };
+		3E50E7B52B87D68800B15C77 /* EtonNowiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50E7B42B87D68800B15C77 /* EtonNowiOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E50E7A52B87D68800B15C77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E50E78C2B87D68600B15C77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E50E7932B87D68600B15C77;
+			remoteInfo = EtonNowiOS;
+		};
+		3E50E7AF2B87D68800B15C77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E50E78C2B87D68600B15C77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E50E7932B87D68600B15C77;
+			remoteInfo = EtonNowiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E50E7942B87D68600B15C77 /* EtonNowiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtonNowiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E50E7972B87D68600B15C77 /* EtonNowiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtonNowiOSApp.swift; sourceTree = "<group>"; };
+		3E50E7992B87D68600B15C77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3E50E79B2B87D68800B15C77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E50E79E2B87D68800B15C77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E50E7A42B87D68800B15C77 /* EtonNowiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtonNowiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E50E7A82B87D68800B15C77 /* EtonNowiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtonNowiOSTests.swift; sourceTree = "<group>"; };
+		3E50E7AE2B87D68800B15C77 /* EtonNowiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtonNowiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E50E7B22B87D68800B15C77 /* EtonNowiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtonNowiOSUITests.swift; sourceTree = "<group>"; };
+		3E50E7B42B87D68800B15C77 /* EtonNowiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtonNowiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E50E7912B87D68600B15C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E50E7A12B87D68800B15C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E50E7AB2B87D68800B15C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E50E78B2B87D68600B15C77 = {
+			isa = PBXGroup;
+			children = (
+				3E50E7962B87D68600B15C77 /* EtonNowiOS */,
+				3E50E7A72B87D68800B15C77 /* EtonNowiOSTests */,
+				3E50E7B12B87D68800B15C77 /* EtonNowiOSUITests */,
+				3E50E7952B87D68600B15C77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E50E7952B87D68600B15C77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E50E7942B87D68600B15C77 /* EtonNowiOS.app */,
+				3E50E7A42B87D68800B15C77 /* EtonNowiOSTests.xctest */,
+				3E50E7AE2B87D68800B15C77 /* EtonNowiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E50E7962B87D68600B15C77 /* EtonNowiOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E50E7972B87D68600B15C77 /* EtonNowiOSApp.swift */,
+				3E50E7992B87D68600B15C77 /* ContentView.swift */,
+				3E50E79B2B87D68800B15C77 /* Assets.xcassets */,
+				3E50E79D2B87D68800B15C77 /* Preview Content */,
+			);
+			path = EtonNowiOS;
+			sourceTree = "<group>";
+		};
+		3E50E79D2B87D68800B15C77 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3E50E79E2B87D68800B15C77 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E50E7A72B87D68800B15C77 /* EtonNowiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E50E7A82B87D68800B15C77 /* EtonNowiOSTests.swift */,
+			);
+			path = EtonNowiOSTests;
+			sourceTree = "<group>";
+		};
+		3E50E7B12B87D68800B15C77 /* EtonNowiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E50E7B22B87D68800B15C77 /* EtonNowiOSUITests.swift */,
+				3E50E7B42B87D68800B15C77 /* EtonNowiOSUITestsLaunchTests.swift */,
+			);
+			path = EtonNowiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E50E7932B87D68600B15C77 /* EtonNowiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E50E7B82B87D68800B15C77 /* Build configuration list for PBXNativeTarget "EtonNowiOS" */;
+			buildPhases = (
+				3E50E7902B87D68600B15C77 /* Sources */,
+				3E50E7912B87D68600B15C77 /* Frameworks */,
+				3E50E7922B87D68600B15C77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EtonNowiOS;
+			productName = EtonNowiOS;
+			productReference = 3E50E7942B87D68600B15C77 /* EtonNowiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E50E7A32B87D68800B15C77 /* EtonNowiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E50E7BB2B87D68800B15C77 /* Build configuration list for PBXNativeTarget "EtonNowiOSTests" */;
+			buildPhases = (
+				3E50E7A02B87D68800B15C77 /* Sources */,
+				3E50E7A12B87D68800B15C77 /* Frameworks */,
+				3E50E7A22B87D68800B15C77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E50E7A62B87D68800B15C77 /* PBXTargetDependency */,
+			);
+			name = EtonNowiOSTests;
+			productName = EtonNowiOSTests;
+			productReference = 3E50E7A42B87D68800B15C77 /* EtonNowiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E50E7AD2B87D68800B15C77 /* EtonNowiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E50E7BE2B87D68800B15C77 /* Build configuration list for PBXNativeTarget "EtonNowiOSUITests" */;
+			buildPhases = (
+				3E50E7AA2B87D68800B15C77 /* Sources */,
+				3E50E7AB2B87D68800B15C77 /* Frameworks */,
+				3E50E7AC2B87D68800B15C77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E50E7B02B87D68800B15C77 /* PBXTargetDependency */,
+			);
+			name = EtonNowiOSUITests;
+			productName = EtonNowiOSUITests;
+			productReference = 3E50E7AE2B87D68800B15C77 /* EtonNowiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E50E78C2B87D68600B15C77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3E50E7932B87D68600B15C77 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3E50E7A32B87D68800B15C77 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3E50E7932B87D68600B15C77;
+					};
+					3E50E7AD2B87D68800B15C77 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3E50E7932B87D68600B15C77;
+					};
+				};
+			};
+			buildConfigurationList = 3E50E78F2B87D68600B15C77 /* Build configuration list for PBXProject "EtonNowiOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E50E78B2B87D68600B15C77;
+			productRefGroup = 3E50E7952B87D68600B15C77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E50E7932B87D68600B15C77 /* EtonNowiOS */,
+				3E50E7A32B87D68800B15C77 /* EtonNowiOSTests */,
+				3E50E7AD2B87D68800B15C77 /* EtonNowiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E50E7922B87D68600B15C77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E50E79F2B87D68800B15C77 /* Preview Assets.xcassets in Resources */,
+				3E50E79C2B87D68800B15C77 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E50E7A22B87D68800B15C77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E50E7AC2B87D68800B15C77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E50E7902B87D68600B15C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E50E79A2B87D68600B15C77 /* ContentView.swift in Sources */,
+				3E50E7982B87D68600B15C77 /* EtonNowiOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E50E7A02B87D68800B15C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E50E7A92B87D68800B15C77 /* EtonNowiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E50E7AA2B87D68800B15C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E50E7B32B87D68800B15C77 /* EtonNowiOSUITests.swift in Sources */,
+				3E50E7B52B87D68800B15C77 /* EtonNowiOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E50E7A62B87D68800B15C77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E50E7932B87D68600B15C77 /* EtonNowiOS */;
+			targetProxy = 3E50E7A52B87D68800B15C77 /* PBXContainerItemProxy */;
+		};
+		3E50E7B02B87D68800B15C77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E50E7932B87D68600B15C77 /* EtonNowiOS */;
+			targetProxy = 3E50E7AF2B87D68800B15C77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E50E7B62B87D68800B15C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E50E7B72B87D68800B15C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E50E7B92B87D68800B15C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EtonNowiOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsmc.EtonNowiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E50E7BA2B87D68800B15C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EtonNowiOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsmc.EtonNowiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E50E7BC2B87D68800B15C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsmc.EtonNowiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EtonNowiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EtonNowiOS";
+			};
+			name = Debug;
+		};
+		3E50E7BD2B87D68800B15C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsmc.EtonNowiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EtonNowiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EtonNowiOS";
+			};
+			name = Release;
+		};
+		3E50E7BF2B87D68800B15C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsmc.EtonNowiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EtonNowiOS;
+			};
+			name = Debug;
+		};
+		3E50E7C02B87D68800B15C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsmc.EtonNowiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EtonNowiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E50E78F2B87D68600B15C77 /* Build configuration list for PBXProject "EtonNowiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E50E7B62B87D68800B15C77 /* Debug */,
+				3E50E7B72B87D68800B15C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E50E7B82B87D68800B15C77 /* Build configuration list for PBXNativeTarget "EtonNowiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E50E7B92B87D68800B15C77 /* Debug */,
+				3E50E7BA2B87D68800B15C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E50E7BB2B87D68800B15C77 /* Build configuration list for PBXNativeTarget "EtonNowiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E50E7BC2B87D68800B15C77 /* Debug */,
+				3E50E7BD2B87D68800B15C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E50E7BE2B87D68800B15C77 /* Build configuration list for PBXNativeTarget "EtonNowiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E50E7BF2B87D68800B15C77 /* Debug */,
+				3E50E7C02B87D68800B15C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E50E78C2B87D68600B15C77 /* Project object */;
+}
