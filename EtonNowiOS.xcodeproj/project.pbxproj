@@ -14,6 +14,11 @@
 		3E50E7A92B87D68800B15C77 /* EtonNowiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50E7A82B87D68800B15C77 /* EtonNowiOSTests.swift */; };
 		3E50E7B32B87D68800B15C77 /* EtonNowiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50E7B22B87D68800B15C77 /* EtonNowiOSUITests.swift */; };
 		3E50E7B52B87D68800B15C77 /* EtonNowiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50E7B42B87D68800B15C77 /* EtonNowiOSUITestsLaunchTests.swift */; };
+		3E50E7C32B87F09700B15C77 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50E7C22B87F09700B15C77 /* ApiManager.swift */; };
+		3E50E7C62B87F12600B15C77 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50E7C52B87F12600B15C77 /* Match.swift */; };
+		3E50E7C82B87F18900B15C77 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50E7C72B87F18900B15C77 /* House.swift */; };
+		3E50E7CA2B87F26100B15C77 /* MatchesApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E50E7C92B87F26000B15C77 /* MatchesApiResponse.swift */; };
+		3E519E002B8A1B3100FF58D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E519DFF2B8A1B3100FF58D3 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,13 @@
 		3E50E7AE2B87D68800B15C77 /* EtonNowiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtonNowiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E50E7B22B87D68800B15C77 /* EtonNowiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtonNowiOSUITests.swift; sourceTree = "<group>"; };
 		3E50E7B42B87D68800B15C77 /* EtonNowiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtonNowiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E50E7C22B87F09700B15C77 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		3E50E7C52B87F12600B15C77 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		3E50E7C72B87F18900B15C77 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		3E50E7C92B87F26000B15C77 /* MatchesApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesApiResponse.swift; sourceTree = "<group>"; };
+		3E519DFC2B8A17F200FF58D3 /* EtonNowiOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EtonNowiOS.entitlements; sourceTree = "<group>"; };
+		3E519DFD2B8A1AA500FF58D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3E519DFF2B8A1B3100FF58D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,13 @@
 		3E50E7962B87D68600B15C77 /* EtonNowiOS */ = {
 			isa = PBXGroup;
 			children = (
+				3E519DFE2B8A1B1700FF58D3 /* Delegates */,
+				3E519DFD2B8A1AA500FF58D3 /* Info.plist */,
+				3E519DFC2B8A17F200FF58D3 /* EtonNowiOS.entitlements */,
+				3E50E7CB2B87FA2B00B15C77 /* Views */,
+				3E50E7C42B87F11E00B15C77 /* Models */,
+				3E50E7C12B87F08B00B15C77 /* Managers */,
 				3E50E7972B87D68600B15C77 /* EtonNowiOSApp.swift */,
-				3E50E7992B87D68600B15C77 /* ContentView.swift */,
 				3E50E79B2B87D68800B15C77 /* Assets.xcassets */,
 				3E50E79D2B87D68800B15C77 /* Preview Content */,
 			);
@@ -125,6 +142,40 @@
 				3E50E7B42B87D68800B15C77 /* EtonNowiOSUITestsLaunchTests.swift */,
 			);
 			path = EtonNowiOSUITests;
+			sourceTree = "<group>";
+		};
+		3E50E7C12B87F08B00B15C77 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3E50E7C22B87F09700B15C77 /* ApiManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3E50E7C42B87F11E00B15C77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E50E7C52B87F12600B15C77 /* Match.swift */,
+				3E50E7C72B87F18900B15C77 /* House.swift */,
+				3E50E7C92B87F26000B15C77 /* MatchesApiResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E50E7CB2B87FA2B00B15C77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E50E7992B87D68600B15C77 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3E519DFE2B8A1B1700FF58D3 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				3E519DFF2B8A1B3100FF58D3 /* AppDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +309,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E50E79A2B87D68600B15C77 /* ContentView.swift in Sources */,
+				3E50E7C32B87F09700B15C77 /* ApiManager.swift in Sources */,
 				3E50E7982B87D68600B15C77 /* EtonNowiOSApp.swift in Sources */,
+				3E50E7CA2B87F26100B15C77 /* MatchesApiResponse.swift in Sources */,
+				3E519E002B8A1B3100FF58D3 /* AppDelegate.swift in Sources */,
+				3E50E7C82B87F18900B15C77 /* House.swift in Sources */,
+				3E50E7C62B87F12600B15C77 /* Match.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,11 +470,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EtonNowiOS/EtonNowiOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EtonNowiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = Q39DSUR7BS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EtonNowiOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,11 +501,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EtonNowiOS/EtonNowiOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EtonNowiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = Q39DSUR7BS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EtonNowiOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
